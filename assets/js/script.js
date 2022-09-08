@@ -69,5 +69,3 @@ function rollTheDice() {
 }
 
 // End game
-
-function endGame()

@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
     background-image: url(/assets/images/background.jpg);
     font-family: "Cinzel", sans-serif;
-    text-align: center;
 }
 
 /* heading and quote */
@@ -18,30 +18,20 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
-    font-weight: 1.5;
-    font-size: 5rem;
     color: whitesmoke;
-    text-shadow: 3px 3px rgb(233, 93, 93);
-}
-#quote {
-    color: whitesmoke;
-    margin-bottom: 5px;
+    text-shadow: 1px 1px rgb(233, 93, 93);
 }
 
 /* game area */
 
 #game-area {
-    background-color: rgb(255, 255, 255, 30%);
-    width: 50%;
-    margin: auto;
+    width: 1000px;
+    position: absolute;
     top: 50%;
     left: 50%;
-    box-shadow: 0px 10px 50px rgba(245, 241, 241, 0.514);
-
-}
-
-#game-area h1 {
-    margin-bottom: 20px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(28, 124, 52, 0.681);
+    overflow: hidden;
 }
 
 /* dices */

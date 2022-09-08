@@ -10,31 +10,25 @@
 </head>
 <body>
 
-    <!-- heading and quote -->
-
-    <h1 id="heading">Roll The Dice</h1>
-    <p id="quote"><i>luck is in small things</i></p>
- 
      <!-- game area -->
      <div id="game-area">
+        <h1 id="heading">Roll The Dice</h1>
         <a href="#" class="rules">
             <i class="fa-solid fa-square-question"></i>
         </a>
  
          <!-- dice1 -->
          <div class="dice-area" id="dice1">
-             <h1 id="player-name">Edit Name <button id="player">&nbsp;&nbsp;X&nbsp;&nbsp;</button></h1>
+             <p id="player-name">Edit Name <button id="player" onclick="editName()">&nbsp;&nbsp;X&nbsp;&nbsp;</button></p>
              <img class="img1" src="assets/images/dice8.png" alt="player-dice-image">
          </div>
  
          <!-- dice2 --> 
          <div class="dice-area" id="dice2">
-             <h1>Computer</h1>
+             <p>Computer</p>
              <img class="img2" src="assets/images/dice6.png" alt="computer-dice-image">
          </div>
-         <button id="roll">&nbsp;&nbsp;Roll&nbsp;&nbsp;</button>
-    </div>
-
+         <button id="roll" onclick="rollTheDice()">&nbsp;&nbsp;Roll&nbsp;&nbsp;</button>
      <!-- score area -->
      <div class="score-area">
 
@@ -51,6 +45,7 @@
             <p class="wins">&nbsp;&nbsp;<i class="fas fa-trophy"></i>&nbsp;&nbsp;Your Wins:&nbsp;&nbsp;<span id="win">0</span></p>
             <p class="wins">Computer's Wins:&nbsp;&nbsp;<span id="loose">0</span></p>
         </div>
+    </div>
     </div>
 
  <!-- font awesome script -->
