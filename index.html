@@ -14,32 +14,44 @@
 
     <h1 id="heading">Roll The Dice</h1>
     <p id="quote"><i>luck is in small things</i></p>
-
-    <!-- game area -->
-
-    <div class="game-area">
+ 
+     <!-- game area -->
+     <div id="game-area">
         <a href="#" class="rules">
             <i class="fa-solid fa-square-question"></i>
         </a>
-
-        <!-- dice1 -->
-
-        <div class="dice-area" id="dice1">
-
-        <!-- dice2 -->
-
-        <div class="dice-area" id="dice2">
-        <button id="roll">roll</button>
+ 
+         <!-- dice1 -->
+         <div class="dice-area" id="dice1">
+             <h1 id="player-name">Edit Name <button id="player">&nbsp;&nbsp;X&nbsp;&nbsp;</button></h1>
+             <img class="img1" src="assets/images/dice1.png" alt="player-dice-image">
+         </div>
+ 
+         <!-- dice2 --> 
+         <div class="dice-area" id="dice2">
+             <h1>Computer</h1>
+             <img class="img2" src="assets/images/dice1.png" alt="computer-dice-image">
+         </div>
+         <button id="roll">&nbsp;&nbsp;Roll&nbsp;&nbsp;</button>
     </div>
 
-    <!-- score area -->
-    <div class="score-area">
+     <!-- score area -->
+     <div class="score-area">
 
-    <!-- score -->
-    <div id="score-section">
+        <!-- score -->
+        <div id="score-section">
+            <h1 class="heading-score">Score</h1>
+            <p class="scores">&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;You Scored:&nbsp;&nbsp;<span id="score-player">0</span></p>
+            <p class="scores">Computer Scored:&nbsp;&nbsp;<span id="score-computer">0</span></p>
+        </div>
 
-     <!-- win -->
-     <div id="win-section">
+        <!-- win -->
+        <div id="win-section">
+            <h1 class="heading-score">Wins</h1>
+            <p class="wins">&nbsp;&nbsp;<i class="fas fa-trophy"></i>&nbsp;&nbsp;Your Wins:&nbsp;&nbsp;<span id="win">0</span></p>
+            <p class="wins">Computer's Wins:&nbsp;&nbsp;<span id="loose">0</span></p>
+        </div>
+    </div>
 
  <!-- font awesome script -->
  <script src="https://kit.fontawesome.com/a08990c2fd.js" crossorigin="anonymous"></script>
