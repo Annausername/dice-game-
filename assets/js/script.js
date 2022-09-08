@@ -63,7 +63,10 @@ function generateNumbers() {
 }
 
 // Roll the dice
-function rollTheDice() 
+function rollTheDice() {
+    // Generate random numbers
+    setTimeout(generateNumbers, 500);
+}
 
 // End game
 
