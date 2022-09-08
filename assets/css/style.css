@@ -11,3 +11,19 @@ body {
     font-family: "Cinzel", sans-serif;
     text-align: center;
 }
+
+/* heading and quote */
+
+#heading {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 1.5;
+    font-size: 5rem;
+    color: whitesmoke;
+    text-shadow: 3px 3px rgb(233, 93, 93);
+}
+#quote {
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
