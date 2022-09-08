@@ -60,3 +60,24 @@ body {
     padding-top: 20px;
     margin-inline: 45px;
 }
+#player {
+    background-color: rgb(233, 77, 5);
+    color: whitesmoke;
+    font-size: 1.3rem;
+    border-radius: 15%;
+    border: 1px solid;
+}
+
+/* roll button and player name edit button */
+#roll {
+    display: inherit;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    background-color: rgb(233, 77, 5);
+    color: whitesmoke;
+    font-family: "Cinzel", sans-serif;
+    font-size: 2rem;
+    border: 1px solid;
+}
