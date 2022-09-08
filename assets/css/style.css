@@ -69,13 +69,11 @@ body {
 
 /* roll button and player name edit button */
 #roll {
-    display: block;
-    margin: auto;
+    margin-top: 3%;
     border-radius: 10%;
     background-color: rgb(233, 77, 5);
-    color: whitesmoke;
     font-family: "Cinzel", sans-serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
     border: 1px solid;
 }
 
@@ -88,9 +86,7 @@ body {
 /* score and wins sections */
 
 .score-area {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    clear: both;
+    padding-top: 5%;
     color: white;
 }
 .scores,.wins {
@@ -98,11 +94,11 @@ body {
     text-align: center;
     padding-inline: 40px;
     color: whitesmoke;
-    font-weight: 1.2;
 }
 
 .heading-score {
     font-weight: 1.2;
+    text-shadow: 1px 1px rgb(233, 93, 93);
 }
 
 #score-section {
@@ -117,5 +113,18 @@ body {
     padding-top: 30px;
 }
 
+#score-player, #win {
+    color: rgb(146, 255, 146);
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.566);
+}
+
+#score-computer, #loose {
+    color: rgb(246, 49, 49);
+    font-weight: bold; 
+    font-size: 1.8rem;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.566);
+}
 /* rules section */
 
