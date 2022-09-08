@@ -25,7 +25,7 @@
  
          <!-- dice2 --> 
          <div class="dice-area" id="dice2">
-             <p>Computer</p>
+             <p id="computer-name">Computer</p>
              <img class="img2" src="assets/images/dice6.png" alt="computer-dice-image">
          </div>
          <button id="roll" onclick="rollTheDice()">&nbsp;&nbsp;Roll&nbsp;&nbsp;</button>
@@ -34,20 +34,36 @@
 
         <!-- score -->
         <div id="score-section">
-            <h1 class="heading-score">Score</h1>
-            <p class="scores">&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;You Scored:&nbsp;&nbsp;<span id="score-player">0</span></p>
+            <h1 class="heading-score"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;Scores</h1>
+            <p class="scores">You Scored:&nbsp;&nbsp;<span id="score-player">0</span></p>
             <p class="scores">Computer Scored:&nbsp;&nbsp;<span id="score-computer">0</span></p>
         </div>
 
         <!-- win -->
         <div id="win-section">
-            <h1 class="heading-score">Wins</h1>
-            <p class="wins">&nbsp;&nbsp;<i class="fas fa-trophy"></i>&nbsp;&nbsp;Your Wins:&nbsp;&nbsp;<span id="win">0</span></p>
+            <h1 class="heading-score"><i class="fas fa-trophy"></i>&nbsp;&nbsp;Wins</h1>
+            <p class="wins">Your Wins:&nbsp;&nbsp;<span id="win">0</span></p>
             <p class="wins">Computer's Wins:&nbsp;&nbsp;<span id="loose">0</span></p>
         </div>
     </div>
     </div>
-
+ <!-- rules section -->
+ <div class="rules">
+    <h1>Rules</h1>
+    <p>The rule of the game is for you to reach 10 Wins before the computer does.
+        <br><br>
+        Every 20 Score points is 1 Win point.
+        <br><br>
+        Each roll score is accumilated in the Score section until you get 20.
+        <br><br>
+        Apart from 6 regular dice sides, you'll have two jokers:
+        <br> - Colored (x2) doubles your current score;
+        <br> - B&W (x0) turns your current score to zero;
+        <br><br>
+        Before you can play the game, make sure you hit the "Roll" button below dices in middle section.
+        <br>Good Luck!
+    </p>
+</div>
  <!-- font awesome script -->
  <script src="https://kit.fontawesome.com/a08990c2fd.js" crossorigin="anonymous"></script>
  <script src="assets/js/script.js"></script>

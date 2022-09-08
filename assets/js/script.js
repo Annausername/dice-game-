@@ -47,9 +47,6 @@ function generateNumbers() {
         document.getElementById('win').innerHTML = ++winP;
         scores.player = 0;
         scores.computer = 0;
-        document.querySelector('h1').innerHTML = ('You win!');
-    } else {
-        document.querySelector('h1').innerHTML = ('Keep Rolling!');
     }
 
     // Pass each score '100' to Wins '+1' for the Computer
@@ -58,7 +55,6 @@ function generateNumbers() {
         document.getElementById('loose').innerHTML = ++winC;
         scores.player = 0;
         scores.computer = 0;
-        document.querySelector('h1').innerHTML = ('Computer Wins');
     }
 }
 

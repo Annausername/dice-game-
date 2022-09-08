@@ -4,64 +4,73 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
 }
 
 body {
     background-image: url(/assets/images/background.jpg);
     font-family: "Cinzel", sans-serif;
+    text-align: center;
 }
 
-/* heading and quote */
+/* game area */
+
+#game-area {
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255, 30%);
+    border-radius: 1rem;
+    width: 50%;
+    height: 600px;
+}
+
+/* heading */
 
 #heading {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding-top: 20px;
     text-align: center;
-    color: whitesmoke;
+    color: white;
     text-shadow: 1px 1px rgb(233, 93, 93);
 }
 
 /* game area */
 
 #game-area {
-    width: 1000px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(28, 124, 52, 0.681);
-    overflow: hidden;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255, 30%);
+    border: 0.5rem groove rgb(132, 226, 111);
+    border-radius: 1rem;
+    width: 50%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#player-name, #computer-name {
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: 1px 1px rgb(54, 180, 88);
 }
 
 /* dices */
 
-.dice-area {
-    text-align: center;
-    display: inline-block;
-    margin: auto;
-    color: white;
-    text-shadow: 3px 3px rgb(54, 180, 88);
+#dice1, #dice2 {
+    height: 30%;
+    width: 50%;
+    padding-top: 30px;
+    float: left;
 }
 
-#dice1, #dice2 {
-    padding-top: 20px;
-    margin-inline: 45px;
-}
 #player {
     background-color: rgb(233, 77, 5);
     color: whitesmoke;
-    font-size: 1.3rem;
     border-radius: 15%;
     border: 1px solid;
 }
 
 /* roll button and player name edit button */
 #roll {
-    display: inherit;
+    display: block;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
     border-radius: 10%;
     background-color: rgb(233, 77, 5);
     color: whitesmoke;
@@ -107,4 +116,6 @@ body {
 #win-section {
     padding-top: 30px;
 }
+
+/* rules section */
 
