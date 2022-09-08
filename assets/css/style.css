@@ -128,3 +128,23 @@ body {
 }
 /* rules section */
 
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1040px wide and down */
+@media screen and (max-width: 1040px) {
+    #game-area{
+        width:80%
+    }
+}
+
+/* For large to medium screens sizes from 550px wide and down */
+@media screen and (max-width: 550px) {
+    #game-area{
+        width:100%
+    }
+    img {
+    width: 110px;
+    height: 110px;
+    }
+}
