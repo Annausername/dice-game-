@@ -1,4 +1,7 @@
-
+var scores = {
+    computer: 0,
+    player: 0
+};
 
 // Edit player's name function
 function editName() {
@@ -6,8 +9,20 @@ function editName() {
     document.querySelector('#player-name').innerHTML = newName;
 }
 
-function assignScore() 
+function assignScore(playerName, number) {
+    let DOMElement = document.getElementById('score-'+playerName);
 
+    if (number <= 6) {
+        scores[playerName] += number;
+        DOMElement.innerHTML = scores[playerName];
+    } else if (number === 8){
+        scores[playerName] = 0;
+        DOMElement.innerHTML = scores[playerName];
+    } else {
+        scores[playerName] = scores[playerName] *= 2;
+        DOMElement.innerHTML = scores[playerName];
+    }
+}
 
 function generateNumbers() {
     let num1 = Math.floor(Math.random() * 8) + 1;
@@ -27,9 +42,29 @@ function generateNumbers() {
     assignScore('computer', num2);
 
     // Pass each score '100' to Wins '+1' for Player
-   
+    if (scores.player >= 20) {
+        let winP = parseInt(document.getElementById('win').innerText)
+        document.getElementById('win').innerHTML = ++winP;
+        scores.player = 0;
+        scores.computer = 0;
+        document.querySelector('h1').innerHTML = ('You win!');
+    } else {
+        document.querySelector('h1').innerHTML = ('Keep Rolling!');
+    }
+
+    // Pass each score '100' to Wins '+1' for the Computer
+    if (scores.computer >= 20) {
+        let winC = parseInt(document.getElementById('loose').innerText)
+        document.getElementById('loose').innerHTML = ++winC;
+        scores.player = 0;
+        scores.computer = 0;
+        document.querySelector('h1').innerHTML = ('Computer Wins');
+    }
+}
 
 // Roll the dice
+function rollTheDice() 
 
 // End game
+
 function endGame()
