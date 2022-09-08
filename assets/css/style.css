@@ -81,3 +81,42 @@ body {
     font-size: 2rem;
     border: 1px solid;
 }
+
+#roll:hover, #player:hover {
+    background: whitesmoke;
+    color: rgb(233, 5, 5);
+    cursor: pointer;
+}
+
+/* score and wins sections */
+
+.score-area {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    color: white;
+}
+.scores,.wins {
+    display: inline-block;
+    text-align: center;
+    padding-inline: 40px;
+    color: whitesmoke;
+    font-weight: 1.2;
+}
+
+.heading-score {
+    font-weight: 1.2;
+}
+
+#score-section {
+    padding-bottom: 10px;
+}
+
+#score-section > h1, #win-section > h1{
+    padding-bottom: 10px;
+}
+
+#win-section {
+    padding-top: 30px;
+}
+
