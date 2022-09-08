@@ -68,6 +68,7 @@ body {
 }
 
 /* roll button and player name edit button */
+
 #roll {
     margin-top: 3%;
     border-radius: 10%;
@@ -105,7 +106,7 @@ body {
     padding-bottom: 10px;
 }
 
-#score-section > h1, #win-section > h1{
+#score-section > h1, #win-section > h1 {
     padding-bottom: 10px;
 }
 
@@ -126,14 +127,51 @@ body {
     font-size: 1.8rem;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.566);
 }
-/* rules section */
 
+/*  rules section */
+
+.help {
+    width: 50%;
+}
+  
+.help .question {
+    margin-left: 1%;
+    color: rgb(233, 77, 5);
+    cursor: pointer;
+    font-size: 200%;
+    position: fixed;
+    float: right;
+}
+  
+.help .rules {
+    width: 50%;
+    height: 0;
+    text-align: center;
+    position: absolute;
+    background: whitesmoke;
+    overflow: hidden;
+    transition: 1s;
+}
+  
+.help .rules {
+    margin: auto;
+}
+
+.help:hover .rules {
+    height: fit-content;
+}
+  
+.help .rules p {
+    color: rgb(3, 3, 3);
+    text-align: center;
+    text-shadow: 0.3px 0.3px rgb(233, 93, 93);
+}
 
 /* Media queries */
 
 /* For large to medium screens sizes from 1040px wide and down */
 @media screen and (max-width: 1040px) {
-    #game-area{
+    #game-area {
         width:80%
     }
 }
@@ -151,42 +189,3 @@ body {
         font-size: 100%;
     }
 }
-/*  rules */
-
-.help {
-    width: 50%;
-  }
-  
-  .help .question {
-    margin-left: 1%;
-    color: rgb(233, 77, 5);
-    cursor: pointer;
-    font-size: 200%;
-    position: fixed;
-    float: right;
-  }
-  
-  .help .rules {
-    width: 50%;
-    height: 0;
-    text-align: center;
-    position: absolute;
-    background: whitesmoke;
-    overflow: hidden;
-    transition: 1s;
-  }
-  
-  .help .rules {
-    margin: auto;
-  }
-
-  .help:hover .rules {
-    height: fit-content;
-  }
-  
-  .help .rules p {
-    color: rgb(3, 3, 3);
-    text-align: center;
-    text-shadow: 0.3px 0.3px rgb(233, 93, 93);
-}
-  
