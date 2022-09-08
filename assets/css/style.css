@@ -27,3 +27,36 @@ body {
     color: whitesmoke;
     margin-bottom: 5px;
 }
+
+/* game area */
+
+#game-area {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255, 30%);
+    box-sizing: border-box;
+    border-radius: 3rem;
+    width: 60%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+#game-area h1 {
+    margin-bottom: 20px;
+}
+
+/* dices */
+
+.dice-area {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    color: white;
+    text-shadow: 3px 3px rgb(54, 180, 88);
+}
+
+#dice1, #dice2 {
+    padding-top: 20px;
+    margin-inline: 45px;
+}
