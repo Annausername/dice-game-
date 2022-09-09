@@ -59,9 +59,11 @@ The live link can be found here - https://annausername.github.io/dice-game-/
 
 ## Bugs
 
-While testing I've noticed that the Win Alert appears before the actual result of the game is shown on the page, basically the user cannot see the final dice side and the score.
+- While testing I've noticed that the Win Alert appears before the actual result of the game is shown on the page, basically the user cannot see the final dice side and the score.
 
 ![Score Bug](https://github.com/Annausername/dice-game-/blob/main/media/Bug.png)
+
+- Help button doesn't work properly on mobile version.
 
 ## Technologies Used
 
