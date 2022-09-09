@@ -10,8 +10,6 @@ Online Dice Game is a site that allows a user to throw dices against the compute
 
 The website has the main area - Game Area which consists of the Heading, Rules Section button, Dice Area with an editable Player's name, Score and Wins Sections.
 
-![Game Area](https://github.com/Annausername/dice-game-/blob/main/assets/Game%20Area.png)
-
 - __The Rules Area__
 
   -  The Rules Area is accessable by pointing over on the question mark at the top left corner of the game area.
@@ -57,7 +55,7 @@ The website has the main area - Game Area which consists of the Heading, Rules S
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://
+The live link can be found here - https://annausername.github.io/dice-game-/
 
 ## Bugs
 
