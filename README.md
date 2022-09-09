@@ -18,3 +18,16 @@ The website has the main area - Game Area which consists of the Heading, Rules S
 
 ![Logo](https://github.com/Annausername/dice-game-/blob/main/assets/Rules.png)
 
+- __The Dice Area__
+
+  - This section will allow the user to play the game. The user will be able to easily see 'Roll' button below to initiate the game start. Each ckick launches the both dices to roll.
+  - The user will also be able to edit their name by clicking the 'X' button above the players' dice.
+
+![Game](https://github.com/Annausername/dice-game-/blob/main/assets/Dice%20Area.png)
+
+- __The Score Area__
+
+  - This section will allow the user to see exactly how many Scores and Wins they accumulated. 
+
+![score](https://github.com/Annausername/dice-game-/blob/main/assets/Score%20Area.png)
+
