@@ -75,5 +75,3 @@ The live link can be found here - https://
 
 - The images used for the dices were taken from the [Wikimedia](https://commons.wikimedia.org/wiki/) open source.
 - The image used for the background were taken from the [Pexels](https://www.pexels.com/) open source.
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
