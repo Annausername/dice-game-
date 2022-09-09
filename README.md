@@ -63,7 +63,7 @@ The live link can be found here - https://
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Credits 
 
